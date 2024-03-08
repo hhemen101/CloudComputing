@@ -1,6 +1,7 @@
 .body {
     display: flex;
     align-items: center; /* Align items vertically center */
+    margin-top: 50px;
     
 }
 body{
@@ -11,6 +12,16 @@ body{
 
 .body-text {
     text-align: center; /* Center text horizontally */
+    margin-left: 150px;
+}
+
+.text-header{
+    font-size: 30px;
+}
+
+#home-text-header{
+    margin-top: 150px;
+    font-size: 40px;
 }
 
 .image {
@@ -28,9 +39,21 @@ button {
 }
 
 .header{
+
     margin-left: 25px;
     margin-top: 25px;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header button {
+    margin: 0 150px; /* Adjust the margin between buttons */
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    white-space: nowrap;
 }
 
 .container{
@@ -78,21 +101,14 @@ button {
     left: 50%;
 }
 
-.footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    padding: 10px; /* Optional: Add padding for better spacing */
-    margin-bottom: 50px;
-    margin-left: 70px;
-}
-
 .intro {
     display: flex;
     flex-direction: column;
     justify-content: center; /* Center vertically */
     align-items: center; /* Center horizontally */
     height: 100px; /* Set the height of the container */
+    margin-top: 100px;
+    padding-bottom: 50px;
 }
 
 .statement {
@@ -107,8 +123,32 @@ button {
 .testimonials{
     position: relative;
     width: 100%;
-    height: 60vh; /* Set the height of the quadrants to the viewport height */
+    height: 70vh; /* Set the height of the quadrants to the viewport height */
     background-color: #FA5537;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+}
+
+.overlay{
+    width: 100%;
+    height: 20vh; /* Set the height of the quadrants to the viewport height */
+    background-color: #FA5537;
+    background-image: linear-gradient(to top,#FA5537, #FBECDC); /* Gradient from top to bottom */
+    transition: background-image 0.0003s ease; /* Smooth transition for background color */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+}
+
+.duo{
+    margin-top: 175px;
+}
+
+.testimonials-header{
+    font-size: 50px;
+    margin-bottom: 550px;
+    color: #FBECDC;
 }
 
 .learn-button {
