@@ -101,19 +101,20 @@ button {
     left: calc(50% + 10px); /* Adjust top value to leave a gap */
 }
 
-.quadrant1 {
-    background-color: #FFD700; /* Yellow */
+.quadrants {
+    background-color: #FBECDC; /* Your webpage background color */
+    position: relative;
+    width: 100%;
+    height: 100vh;
 }
 
-.quadrant2 {
-    background-color: #FF6347; /* Tomato */
-}
-
-.quadrant3 {
-    background-color: #00BFFF; /* Deep Sky Blue */
-}
-.quadrant4 {
-    background-color: #32CD32; /* Lime Green */
+.container {
+    background-color: transparent;
+    position: absolute;
+    width: 750px; /* Adjust the width as needed */
+    height: 400px; /* Adjust the height as needed */
+    margin: 60px;
+    margin-left: 20px;
 }
 
 .intro {
