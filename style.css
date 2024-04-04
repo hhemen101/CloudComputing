@@ -112,6 +112,9 @@ button {
 .quadrant3 {
     background-color: #00BFFF; /* Deep Sky Blue */
 }
+.quadrant4 {
+    background-color: #32CD32; /* Lime Green */
+}
 
 .intro {
     display: flex;
