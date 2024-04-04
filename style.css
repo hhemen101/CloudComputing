@@ -175,6 +175,14 @@ button {
     background-color: #FA5537; /* Color fill effect on hover */
 }
 
+.section {
+    height: 100vh; /* Set section height to viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* Add other styling properties */
+}
+
 .lambda {
     margin-top: 70px; /* Adjust this value to move the elements further up */
 }
