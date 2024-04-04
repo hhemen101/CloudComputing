@@ -101,20 +101,12 @@ button {
     left: calc(50% + 10px); /* Adjust top value to leave a gap */
 }
 
-.quadrants {
+.body {
     background-color: #FBECDC; /* Your webpage background color */
-    position: relative;
-    width: 100%;
-    height: 100vh;
 }
-
 .container {
     background-color: transparent;
-    position: absolute;
-    width: 750px; /* Adjust the width as needed */
-    height: 400px; /* Adjust the height as needed */
-    margin: 60px;
-    margin-left: 20px;
+    /* Other styles for positioning and sizing */
 }
 
 .intro {
