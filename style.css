@@ -84,30 +84,24 @@ button {
 .quadrant1 {
     top: 0;
     left: 100px;
-    text-align: right; /* Change this value to move the image up or down */ 
-    text-indent: 70px
 }
 
 .quadrant2 {
     top: 0;
     left: calc(50% + 10px); /* Adjust top value to leave a gap */
-    text-align: right; /* Change this value to move the image up or down */ 
-    text-indent: 70px
+    
 }
 
 .quadrant3 {
     top: calc(50% + 10px); /* Adjust top value to leave a gap */
     left: 100px;
-    text-align: right; /* Change this value to move the image up or down */ 
-    text-indent: 70px
-            
+ 
 }
 
 .quadrant4 {
     top: calc(50% + 10px); /* Adjust top value to leave a gap */
     left: calc(50% + 10px); /* Adjust top value to leave a gap */
-    text-align: right; /* Change this value to move the image up or down */ 
-    text-indent: 70px
+   
 }
 
 .body {
