@@ -83,7 +83,7 @@ button {
 
 .quadrant1 {
     top: 0;
-    left: 0;
+    left: 70px;
     text-align: right; /* Change this value to move the image up or down */ 
     text-indent: 70px
 }
@@ -97,7 +97,7 @@ button {
 
 .quadrant3 {
     top: calc(50% + 10px); /* Adjust top value to leave a gap */
-    left: 0;
+    left: 70px;
     text-align: right; /* Change this value to move the image up or down */ 
     text-indent: 70px
             
