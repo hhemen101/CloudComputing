@@ -76,32 +76,30 @@ button {
 
 .container {
     position: absolute;
-    width:570px; /* Adjust the width as needed */
-    height: 230px; /* Adjust the height as needed */
-    margin: 60px;
+    width:750px; /* Adjust the width as needed */
+    height: 400px; /* Adjust the height as needed */
+    margin: 70px;
     margin-left: 20px;
 }
 
 .quadrant1 {
     top: 0;
-    left: 100px;
 }
 
 .quadrant2 {
     top: 0;
-    left: calc(50% + 5px); /* Adjust top value to leave a gap */
+    left: 50vw;
     
 }
 
 .quadrant3 {
-    top: calc(50% + 5px); /* Adjust top value to leave a gap */
-    left: 100px;
+    top: 60vh;
  
 }
 
 .quadrant4 {
-    top: calc(50% + 5px); /* Adjust top value to leave a gap */
-    left: calc(50% + 5px); /* Adjust top value to leave a gap */
+    margin-top: 50vw;
+    margin-left: 60vh;
    
 }
 
