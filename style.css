@@ -84,22 +84,24 @@ button {
 
 .quadrant1 {
     top: 0;
+    left: 100px;
 }
 
 .quadrant2 {
     top: 0;
-    left: 50vw;
+    left: calc(50% + 5px); /* Adjust top value to leave a gap */
     
 }
 
 .quadrant3 {
-    top: 60vh;
+    top: calc(50% + 5px); /* Adjust top value to leave a gap */
+    left: 100px;
  
 }
 
 .quadrant4 {
-    margin-top: 50vw;
-    margin-left: 60vh;
+    top: calc(50% + 5px); /* Adjust top value to leave a gap */
+    left: calc(50% + 5px); /* Adjust top value to leave a gap */
    
 }
 
