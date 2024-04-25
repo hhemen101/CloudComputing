@@ -223,10 +223,13 @@ button {
 .vmwar {
     font-size: 30px;
 }
-.body.light {
+.lit {
     font-size: 30px;
 }
 .lightsail {
     font-size: 25px;
+}
+.light {
+    font-size: 30px;
 }
 
