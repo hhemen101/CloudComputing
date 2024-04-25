@@ -89,19 +89,19 @@ button {
 
 .quadrant2 {
     top: 0;
-    left: calc(50% + 10px); /* Adjust top value to leave a gap */
+    left: calc(50% + 5px); /* Adjust top value to leave a gap */
     
 }
 
 .quadrant3 {
-    top: calc(50% + 10px); /* Adjust top value to leave a gap */
+    top: calc(50% + 5px); /* Adjust top value to leave a gap */
     left: 100px;
  
 }
 
 .quadrant4 {
-    top: calc(50% + 10px); /* Adjust top value to leave a gap */
-    left: calc(50% + 10px); /* Adjust top value to leave a gap */
+    top: calc(50% + 5px); /* Adjust top value to leave a gap */
+    left: calc(50% + 5px); /* Adjust top value to leave a gap */
    
 }
 
