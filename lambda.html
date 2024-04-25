@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -23,27 +24,78 @@
         <head> 
             <title>Moving an Image Up and Down in HTML</title> 
             <style> 
-                img { 
+            
+            img { 
                     position: relative; 
-                    top: -150px; /* Change this value to move the image up or down */ 
+                    top: -300px; /* Change this value to move the image up or down */ 
                 } 
+                .text-header.lambda {
+                    position: relative;
+                    top: -120px; /* Adjust this value as needed */
+                }
+                .body.lambda {
+                    position: relative;
+                    top: -190px; /* Adjust this value as needed */
+                }
+                .lamb {
+                    position: relative;
+                    top: -135px; /* Adjust this value as needed */
+                }
+                .body.lambd {
+                    position: relative;
+                    top: -190px; /* Adjust this value as needed */
+                }
+                .bullet {
+                    position: relative;
+                    top: -200px; /* Adjust this value as needed */
+                }
+                .bullet2 {
+                    position: relative;
+                    top: -215px; /* Adjust this value as needed */
+                }
+
+                .body.lam {
+                    position: relative;
+                    top: -215px; /* Adjust this value as needed */
+                }
+
             </style> 
         </head> 
         <img src="aws-batch-logo-E7BFE2E075-seeklogo.com.png" alt="" class="image"
         height="400"
         width="100">
-        <div class = "body-text">
-            <head> 
-                <title>Moving an Image Up and Down in HTML</title> 
-                <style> 
-                    h3 { 
-                        position: relative; 
-                        top: -165px; /* Change this value to move the image up or down */ 
-                    } 
-                </style> 
-            </head> 
-            <h3 class="text-header">IF YOU ARE LOOKING FOR…</h6>
-            </div>
-       </div>
-   </body>
-   </html>
+        <div class = "Body">
+        
+            <h3 class="text-header lambda">IF YOU ARE LOOKING FOR…</h3>
+    
+                <ul class="lamb">
+                    <li>Effortless batch planning and excecution</li> 
+
+                    <li>Organized batch scheduling</li> 
+                    
+                    <li>Pay as you go data processing & excecution across various virtual machines...</li> 
+                </ul>
+            <h3 class="body lambda">THEN AWS BATCH IS THE RIGHT SERVICE FOR YOU!</h3>
+           
+            <h3 class="body lambd">AWS BATCH PROVIDES:</h3>
+                <ul class="bullet">
+                    <li>Users the ability to execute hundreds of thousands of batch and ML computing tasks, optimizing compute resources.</li>
+
+                    <li>Users the ability to automate content-rendering workloads to reduce the need for physical dependencies.</li>
+                        
+                    <li>Built-in fault tolerance - Lambda maintains compute capacity across multiple Availability Zones in each Region to help protect your code against machine or data center failures.</li>
+                        
+                    <li>Business owners with the tools to automate the analysis of transactions, market performance, and completion reports.</li>
+
+                    <li>Users the ability to efficiently run compute-intense ML model training and inference at any scale.</li>
+                </ul>
+            <h3 class="body lam">THINGS TO CONSIDER:</h3>
+                <ul class="bullet2">
+                    <li>Limited support for new users - Users have reported that Batch provides insufficient documentation and training materials.</li>
+                    
+                    <li>Loading times - Many users have documented that Batch's loading times can be extensive at times.</li>
+                </ul>
+        </div>
+    </div>
+</body>
+</html>
