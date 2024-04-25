@@ -76,8 +76,8 @@ button {
 
 .container {
     position: absolute;
-    width:550px; /* Adjust the width as needed */
-    height: 200px; /* Adjust the height as needed */
+    width:650px; /* Adjust the width as needed */
+    height: 300px; /* Adjust the height as needed */
     margin: 60px;
     margin-left: 20px;
 }
